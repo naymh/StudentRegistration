@@ -1,0 +1,54 @@
+body{
+    font-family: sans-serif;
+    padding: 5% 10%;
+    background-color: whitesmoke;
+}
+h2{
+    color : dodgerblue;
+}
+
+#registrationForm, #editForm, #list{
+    background-color: white;
+    padding: 3%;
+    box-shadow: 1px 1px 1px 5px whitesmoke;
+    border-radius: 15px;
+}
+
+#label {
+    width: 20%;
+    float: left;
+}
+
+.radio {
+    width:20px;
+}
+
+input {
+    width: 30%;
+    height: 30px;
+    border-radius: 5px;
+}
+
+div {
+    margin: 5px;
+}
+
+button {
+    height:30px
+}
+
+table {
+width:100%
+}
+table , tr, th, td{
+    border: none;
+    height: 30px;
+}
+thead > tr {
+background-color:lightgrey;
+border-radius: 5px;
+}
+
+tbody > td {
+border: 1px solid lightgrey;
+}
